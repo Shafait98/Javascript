@@ -1,4 +1,4 @@
-flag = true;
+flag = false;
 
 if(flag)     // for true value
 {
@@ -12,10 +12,10 @@ else
 
     if(!flag)   // for false value
     {
-        console.log("You're green flag");
+        console.log("You're green!");
     }
 
     else
     {
-     console.log("You're red flag");
+     console.log("You're red!");
     }

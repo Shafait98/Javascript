@@ -1,5 +1,5 @@
 const isLeader = true;
-let price = 300;
+let price = 1500;
 
 // if(isLeader === true)                    // normal condition
 // {
