@@ -8,4 +8,4 @@ while(price <=500)
     price+=50;
 }
 
-console.log("sum of price: "+sum)
+console.log("sum of price: "+sum);
