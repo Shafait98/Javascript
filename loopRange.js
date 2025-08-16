@@ -11,7 +11,8 @@ while(fair <= 50)                       // checking the fair value is even
     console.log("fair: " + fair);
     fair = fair + 1;
 
-    if(fair % 2 === 0)      // checking the fair value is even
+    if(fair 
+        % 2 === 0)      // checking the fair value is even
     {
         console.log("Even fair: " + fair);
     }
