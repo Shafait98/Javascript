@@ -1,0 +1,23 @@
+//  let n;
+//  for(n=100; n>=10;n--)
+//  {
+//     console.log(n);
+//  }
+
+
+// *********decrement with while loop*********//
+
+
+// let i = 100;
+
+// while(i>=20)
+// {
+// console.log(i);
+// i--
+// }
+
+let i;
+for(i=1000; i>100; i= i-3)
+{
+   console.log(i);
+}
