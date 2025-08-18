@@ -11,14 +11,30 @@
 // }
 
 
-let n = 0;
-while(n <= 50)
+// let n = 0;
+// while(n <= 50)
+// {
+//       n++;
+//     if(n % 5 === 0)
+//     {
+//         continue;
+//     }
+  
+//     console.log(n);
+// }
+
+let i = 0;
+
+while(i <= 50)
 {
-      n++;
-    if(n % 5 === 0)
+     i++;
+    if(i % 3 === 0 )
     {
         continue;
     }
-  
-    console.log(n);
+   else if(i >=25)
+   {
+    break;
+   }
+    console.log(i);
 }
