@@ -3,10 +3,10 @@ let favSong = ["Pirroute","Low-life","Make you mine", "watch over you", "calm-do
 console.log("favourite songs are: ")
 for(let song of favSong)
 {
-    console.log(,song);
+    console.log(song);
 }
 
-favSong.pop();
+favSong.pop(); // pop out element from last index of an array
 console.log(favSong);
 
 let out2 = favSong.pop(); // here we can store pop() element in a variable
