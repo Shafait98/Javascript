@@ -1,14 +1,14 @@
 let friends = ["Shafin","Abir","Rakib", "Salek","Prottush"];
 
-friends.shift();
-for(let fr of friends)
-{
-    console.log(fr);
-}
+console.log(friends.includes("Rakib")); //includes check if the value is stored and return true or false
 
 
-friends.unshift("Farhan");
-for(let fr of friends)
+
+if(friends.includes("salek")) // we can use includes() in condition also
 {
-    console.log(fr);
+    console.log("get in!")
 }
+else
+    {
+        console.log("please wait outside!");
+    }
