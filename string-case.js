@@ -22,3 +22,20 @@ else
 {
     console.log("Nice Bike!");
 }
+
+
+//***Understanding the trim() function */
+
+
+const name =" Farhan";
+const Lname = "Farhan ";
+
+if(name.trim() === Lname.trim()) //trim() removes all white space from string
+{
+    console.log("That's my name!");
+}
+
+else
+{
+   console.log("Oh try again");
+}
