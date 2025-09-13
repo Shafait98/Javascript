@@ -16,7 +16,7 @@ let sum = 0;
 console.log("The numbers are: ")
 for(let i = 1; i<=100; i++)
 {  
-    if(i % 3 === 0 || i % 5 === 0 || i % 10 === 0)
+    if(i % 3 === 0 && i % 5 === 0 && i % 10 === 0)
     {
         sum = sum + i;
         console.log(i);

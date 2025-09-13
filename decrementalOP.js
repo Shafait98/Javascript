@@ -16,8 +16,13 @@
 // i--
 // }
 
+let sum = 0;
 let i;
 for(i=1000; i>100; i= i-3)
 {
+   sum = sum + i;
    console.log(i);
+
 }
+
+console.log('The sum :' + sum);

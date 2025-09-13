@@ -12,3 +12,32 @@ const person =
 let allContact = person.contactNum;
 
 console.log(allContact);
+
+console.log(person['name']);
+
+const car =
+{
+    brand: 'Toyata',
+    cars: ['prius','Corolla Cross', 'Allion','Premieo','Harrier', 'Prado'],
+    importDate: '22-03-2025',
+    licenseIssue: 'Updated till 27-sep-2027'
+
+};
+
+let gari = car.cars[5];
+
+console.log(car['licenseIssue']);
+
+console.log(gari);
+
+
+//**get & set value */
+
+let myCar;
+let updateLC;
+
+updateLC = car.licenseIssue['updated LC'];
+
+myCar = car.cars['Lambo','porsha','Maserati'];
+
+console.log(updateLC);
