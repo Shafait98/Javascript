@@ -20,7 +20,7 @@ while(n > 50)
         break;
     }
     console.log(n);
-    n--;
-
+    
+n--;
 }
 

@@ -21,4 +21,4 @@ let word = "JavaScript";
 let letters = word.split(''); 
 console.log(letters);      // ['J','a','v','a','S','c','r','i','p','t']
 console.log(letters.join('-'));     // J-a-v-a-S-c-r-i-p-t
-console.log(word.join('-'));  
+// console.log(word.join('-'));  
