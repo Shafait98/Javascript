@@ -9,7 +9,7 @@
 // while(i <= 10)
 
 
-    //***Sum operation who do-while loop */
+    //***Sum operation  do-while loop */
 
     let i = 0;
     let sum = 0;

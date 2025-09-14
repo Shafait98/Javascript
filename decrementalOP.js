@@ -25,4 +25,4 @@ for(i=1000; i>100; i= i-3)
 
 }
 
-console.log('The sum :' + sum);
+console.log('The sum : ' + sum);

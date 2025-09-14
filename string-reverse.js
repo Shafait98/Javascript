@@ -1,13 +1,13 @@
-// let str = "I am a programmer";
+let str = "I am a programmer";
 
-// let reverse = "";
+let reverse = "";
 
-// for (let n of str)
-// {
-//     reverse = n + reverse;
-// }
+for (let n of str)
+{
+    reverse = n + reverse ;
+}
 
-// console.log(reverse);
+console.log(reverse);
 
 
 
@@ -45,5 +45,5 @@ let name = "Shafait Ul Haque Siddique";
 
 //**reversing with method() */
 
-let reversed = name.split("").reverse().join("");
-console.log(reversed);
+// let reversed = name.split("").reverse().join("");
+// console.log(reversed);
