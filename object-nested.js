@@ -14,4 +14,7 @@ additionalFramework:
 }
 };
 
+delete framework.engine; // deleting engine property from object
+console.log(framework);
+
 console.log(framework.frameworks.frontEnd); // calling nested elements
