@@ -37,10 +37,12 @@ console.log(gari);
 //**get & set value */
 
 // let myCar;
-// let updateLC;
+let updateLC;
 
-// updateLC = car.licenseIssue['updated LC'];
+updateLC = car.licenseIssue;
+
+updateLC = 'new LC';
 
 // myCar = car.cars['Lambo','porsha','Maserati'];
 
-// console.log(updateLC);
+console.log(updateLC);

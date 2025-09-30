@@ -14,7 +14,13 @@ additionalFramework:
 }
 };
 
-delete framework.engine; // deleting engine property from object
-console.log(framework);
+// delete framework.engine; // deleting engine property from object
+// console.log(framework);
 
-console.log(framework.frameworks.frontEnd); // calling nested elements
+
+for(let key in framework)
+{
+    console.log(key,' : ',framework[key]);
+}
+
+// console.log(framework.frameworks.frontEnd);   // calling nested elements
