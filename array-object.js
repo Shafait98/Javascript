@@ -15,7 +15,7 @@ console.log(employees[0].name, ' ', employees[0].age);
 console.log(employees[1].name, ' ', employees[1].age);
 
 
-employees[2].designation = 'Site Engineer';
+employees[2].designation = 'Site Engineer'; // changing the value of an object's property
 
 console.log(employees[2]);
 
