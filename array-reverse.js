@@ -43,14 +43,25 @@
 
 //**reverse with unshift */
 
-let fruits = ["bango",'banana','apple','orange'];
+// let fruits = ["bango",'banana','apple','orange'];
 
-let fruit = [];
+// let fruit = [];
 
-for( let i = 0; i < fruits.length;i++)
+// for( let i = 0; i < fruits.length;i++)
+// {
+//     fruit.push(fruit[i]);
+// }
+
+// console.log(fruit);
+// console.log("Running correct file!");
+
+//**reverse with decrement */
+let  breakfast = ['Apple','Banana','Orange', 'Grape','Avocado'];
+let rev = [];
+
+for(let i = breakfast.length - 1; i>=0; i--)
 {
-    fruit.push(fruit[i]);
-}
+    rev.push(breakfast[i]);
+} 
 
-console.log(fruit);
-console.log("Running correct file!");
+console.log(rev);
