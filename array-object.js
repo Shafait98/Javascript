@@ -28,3 +28,10 @@ for(let emp of employees)   // we can get specific data of an object
 {
     console.log('Age: ' + emp.age);
 }
+
+for (let e of employees)
+{
+    console.log('salary: ', e.salary);
+}
+
+console.log(employees[3]);

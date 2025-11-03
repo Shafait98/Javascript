@@ -19,7 +19,7 @@ console.log( "descending sorting: "  + descendingSort);
 //** array of object & traversing */
 
 const students = [ {name: "Farhan", id:"19-41324-3", department: "CSE", boodGroup: "O+"},
-                  {name: "Abir", id:"19-41322-3", department: "CSE", boodGroup: "B+"},
+                  {name: "Abir", id:"19-41322-3", department: "CSE", bloodGroup: "B+"},
                   {name: "Prottush", id:"19-41234-3", department: "CSE", boodGroup: "A+"},
                      {name: "Shafin", id:"19-41134-3", department: "CSE", boodGroup: "B-"},
                    {name: "Tehan", id:"19-41128-3", department: "CSE", boodGroup: "O+"}
