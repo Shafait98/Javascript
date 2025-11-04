@@ -37,3 +37,5 @@ function diffOdd(num1,num2)
 
 let result = diffOdd(50,20);
 console.log(result);
+
+
